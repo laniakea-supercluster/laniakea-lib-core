@@ -10,8 +10,8 @@
         ,"noStrictGenericChecks": true,
         "baseUrl": ".",
         "paths": {
-            "@atis/*": [
-                "../node_modules/@atis"
+            "@atis-domains/*": [
+                "../node_modules/@atis/lib-core-domain/dist/core/domain/entity"
             ]
         }
     },

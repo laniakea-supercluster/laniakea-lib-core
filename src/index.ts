@@ -1,1 +1,0 @@
-export { AtisCoreDomain } from './core/domain/entity';

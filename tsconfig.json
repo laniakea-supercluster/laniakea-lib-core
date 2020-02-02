@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {   
+        "module": "commonjs"
+        ,"target": "es6"
+        ,"alwaysStrict": true
+        ,"declaration": true
+        ,"listEmittedFiles": true
+        ,"removeComments": true
+        ,"outDir": "./dist"
+        ,"noStrictGenericChecks": true
+        // ,"baseUrl": "./src"
+        // ,"paths": {
+        //     "domain/*": [ "core/domain/*" ]
+        //    , "persistence/*": [ "core/persistence/*" ]
+        //    , "service/*": [ "core/service/*" ]
+        //    , "system/*": [ "system/*" ]
+        // }
+    }
+    ,"include": [
+        "src/**/*"
+    ]
+}

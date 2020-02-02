@@ -1,6 +1,6 @@
 {
   "name": "@atis/lib-core-domain",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "Core package for domains",
   "author": {
     "name": "Adriano Ferreira",
@@ -14,7 +14,7 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "prepublish": "rm -Rf dist/* | tsc",
+    "prepublish": "grunt",
     "postpublish": "git push origin develop"
   }
 }

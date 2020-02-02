@@ -14,7 +14,7 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "prepublish": "grunt",
+    "prepublish": "rm -Rf dist/* | tsc",
     "postpublish": "git push origin develop"
   }
 }

@@ -7,16 +7,15 @@
         ,"listEmittedFiles": true
         ,"removeComments": true
         ,"outDir": "./dist"
-        ,"noStrictGenericChecks": true
-        // ,"baseUrl": "./src"
-        // ,"paths": {
-        //     "domain/*": [ "core/domain/*" ]
-        //    , "persistence/*": [ "core/persistence/*" ]
-        //    , "service/*": [ "core/service/*" ]
-        //    , "system/*": [ "system/*" ]
-        // }
-    }
-    ,"include": [
+        ,"noStrictGenericChecks": true,
+        "baseUrl": ".",
+        "paths": {
+            "@atis/*": [
+                "../node_modules/@atis"
+            ]
+        }
+    },
+    "include": [
         "src/**/*"
     ]
 }

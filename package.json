@@ -1,6 +1,6 @@
 {
-  "name": "lib-core-domain",
-  "version": "3.0.5",
+  "name": "@atis/lib-core-domain",
+  "version": "3.0.0",
   "description": "Core package for domains",
   "author": {
     "name": "Adriano Ferreira",

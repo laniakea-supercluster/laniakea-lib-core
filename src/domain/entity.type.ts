@@ -11,4 +11,4 @@ export interface ITrackable {
 export enum RecordtType {
     System
     , User
-} 
+}

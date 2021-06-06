@@ -1,6 +1,6 @@
 {
   "name": "@atis/lib-core-domain",
-  "version": "3.0.1-3",
+  "version": "3.0.1-4",
   "description": "Core package for domains",
   "author": {
     "name": "Adriano Ferreira",
@@ -9,9 +9,6 @@
   "repository": {
     "type": "git",
     "url": "https://bitbucket.org/atisenterprise/lib-core-domain.git"
-  },
-  "publishConfig": {
-    "registry": "https://atis.jfrog.io/artifactory/api/npm/atis-stage-libs/"
   },
   "license": "UNLICENSED",
   "main": "./dist/index.js",

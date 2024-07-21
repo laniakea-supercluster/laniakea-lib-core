@@ -1,0 +1,20 @@
+{
+  "name": "@atis/lib-core-domain",
+  "version": "3.0.1-7",
+  "description": "Core package for domains",
+  "author": {
+    "name": "Adriano Ferreira",
+    "email": "adriano.ferreira@atis.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/atisenterprise/lib-core-domain.git"
+  },
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prepublish": "rm -Rf dist/* | tsc",
+    "postpublish": "git push origin develop"
+  }
+}

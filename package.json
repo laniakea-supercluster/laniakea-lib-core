@@ -1,6 +1,6 @@
 {
   "name": "@atisiothings/lib-core-domain",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Core package for domains",
   "author": {
     "name": "Adriano Ferreira",

@@ -1,6 +1,6 @@
 {
-  "name": "@atisiothings/lib-core-domain",
-  "version": "0.0.6",
+  "name": "@atisiothings/laniakea-lib-core",
+  "version": "0.0.1",
   "description": "Core package for domains",
   "author": {
     "name": "Adriano Ferreira",

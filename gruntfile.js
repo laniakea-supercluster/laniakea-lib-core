@@ -39,6 +39,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks(`${parentPath}/grunt-contrib-copy`);
   grunt.loadNpmTasks(`${parentPath}/grunt-contrib-watch`);
   grunt.loadNpmTasks(`${parentPath}/grunt-ts`);
+  grunt.loadNpmTasks(`${parentPath}/grunt-release`);
 
   grunt.registerTask('default', ['clean', 'ts']);
 };

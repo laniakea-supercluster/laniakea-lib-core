@@ -6,8 +6,8 @@ module.exports = function(grunt) {
   grunt.initConfig({
     clean: ['./dist/**/*'],
     ts: {
-      default: {
-        tsconfig: false
+      default : {
+        project: './tsconfig.json'
       },
       options: {
         fast: 'never'
@@ -19,18 +19,27 @@ module.exports = function(grunt) {
             dest: './dist'
           }
         ],
-        options: {
-          module: 'commonjs',
-          target: 'es6',
-          sourceMap: false,
-          rootDir: 'src'
-        }
+        // options: {
+        //   module: 'commonjs',
+        //   target: 'es6',
+        //   sourceMap: false,
+        //   rootDir: 'src'
+        // }
       }
     },
     watch: {
       ts: {
         files: ['src/**/*.ts'],
         tasks: ['ts']
+      }
+    },
+    release: {
+      options: {
+        add: false,
+        commit: false,
+        tag: false,
+        push: false,
+        pushTags: false,
       }
     }
   });

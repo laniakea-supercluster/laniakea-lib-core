@@ -1,5 +1,5 @@
 {
-  "name": "@atis/lib-core-domain",
+  "name": "@atisiothings/laniakea-lib-core",
   "version": "0.0.5",
   "description": "Core package for domains",
   "author": {

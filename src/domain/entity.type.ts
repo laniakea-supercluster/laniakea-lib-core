@@ -1,4 +1,4 @@
-export interface IEntity<T> {
+export interface IIdentifier<T> {
     _id: T;
 }
 

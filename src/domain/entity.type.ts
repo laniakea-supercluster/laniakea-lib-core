@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 export interface IIdentifier<T> {
     _id: T;
 }
@@ -8,7 +9,4 @@ export interface ITrackable {
     signature: string;
 }
 
-export enum RecordtType {
-    System
-    , User
-}
+export enum RecordtType { System, User }

@@ -7,7 +7,7 @@ export interface CrudUseCase<D, T> extends ViewUseCase<D, T> {
 
   updateOne(id: T, domain: D): Promise<D | null>;
 
-  removeOne(id: T): void;
+  removeOne(id: T): Promise<void>;
 }
 
 export const CrudUseCase = Symbol('CrudUseCase');
